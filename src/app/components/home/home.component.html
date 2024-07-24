@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low Interest Personal Loans | Get easy loans online in India</title>
+    
+</head> -->
+<body>
+
+    <main>
+        <section>
+            <h1>Low Interest Personal Loans | Get easy loans online in India</h1>
+            <img src="../../../assets/banner_image_loan.webp" alt="Finzy RBI Badge">
+            <img src="../../../assets/fade.gif" alt="CIBIL Score">
+            <p>Check Your Free CIBIL Score Instantly for Free | No Impact on Your Score</p>
+        </section>
+        <section class="serviceSection">
+            <h2>Our Services</h2>
+
+            <div class="serviceDiv">
+                <div class="serviceSubDiv">
+                    <p>Quick Car Loan</p>
+
+                    <ul>
+                        <li (click)="selectService(1)">Used car loan</li>
+                        <li>New car loan</li>
+                        <li>commercial Vehical loan</li>
+                    </ul>
+
+            </div>
+            
+            <div class="serviceSubDiv" >
+                <p>Housing Fianance</p>  
+
+                <ul>
+                    <li>LAP Case</li>
+                    <li>Loan against Property</li>
+                    
+                </ul>
+            </div>
+
+            <div class="serviceSubDiv">
+                <p>Business Loan</p>
+
+                <ul>
+                    <li>Secure loan</li>
+                    <li>Unsecure Loan</li>
+                    <li>Machinery Loan</li>
+                </ul>
+            </div>
+            </div>
+           
+        </section>
+
+        <section *ngFor="let item of ourServices">
+            <h2>{{item.heading}}</h2>
+            <div class="imageDiv"> 
+                <img  [src]="item.image">
+            </div>
+            <button class="buttonApply">Apply Now</button>
+            <p>{{item.description}}</p>
+        
+
+        </section>
+        <!-- <section>
+            <h2>What do I need to do for a Personal Loan</h2>
+            <p>finzy makes entire borrowing process simple and user friendly</p>
+            <p>You can get your loan funded in as little as 48 hours</p>
+            <img src="https://res.cloudinary.com/finzy/image/upload/v1498288560/borrower_2div_ghvugv.png" alt="Finzy Borrowing Process">
+            <img src="https://res.cloudinary.com/finzy/image/upload/v1496520772/borrowermid_fuyhtd.png" alt="Finzy Borrowing Process">
+        </section> -->
+        <!-- other sections -->
+        <!-- <section>
+            <h2>The Core Team</h2>
+            <ul>
+                <li>
+                    <img src="https://res.cloudinary.com/finzy/image/upload/v1538986872/amit_ihskhe.jpg" alt="Amit More, Founder & CEO">
+                    <p>Amit More</p>
+                    <p>Founder & CEO</p>
+                </li>
+                <li>
+                    <img src="https://res.cloudinary.com/finzy/image/upload/v1538986872/abhinandan_aukpdl.jpg" alt="Abhinandan Sangam, Co-founder & CTO">
+                    <p>Abhinandan Sangam</p>
+                    <p>Co-founder & CTO</p>
+                </li>
+                <li>
+                    <img src="https://res.cloudinary.com/finzy/image/upload/v1538986872/vishwas_ztkchg.jpg" alt="Vishwas Dixit, Co-founder & CMO">
+                    <p>Vishwas Dixit</p>
+                    <p>Co-founder & CMO</p>
+                </li>
+            </ul>
+        </section> -->
+        <!-- <section>
+            <h2>What our Customers Say</h2>
+            <p>Here are some dreams fulfilled</p>
+            <blockquote>
+                <p>"On sharing my requirement, I got a loan of ₹5 Lacs from finzy in 2 working days. I used it for doing up the interiors of my flat."</p>
+            </blockquote>
+            <blockquote>
+                <p>"It’s an absolutely brilliant venture! The process is completely hassle free and you are treated like the most important person in the world. I was completely awestruck with the process and the experience. Thanks finzy for making me independent and helping me live my dream!"</p>
+            </blockquote>
+        </section> -->
+    </main>
+    <footer>
+        <!-- footer content -->
+    </footer>
+</body>
+</html>
+
+
+  

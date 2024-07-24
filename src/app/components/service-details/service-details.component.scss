@@ -1,0 +1,40 @@
+
+section{
+    background-color: #f7f7f7;
+    padding: 80px;
+    margin: 20px;
+}
+.serviceSection{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    padding: 80px;
+}
+.serviceDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.serviceSubDiv{
+    background: #a0a3a1;
+    width: fit-content;
+    height: fit-content;
+    min-height: 13rem;
+    padding: 20px;
+    margin-top: 20px;
+    min-width: 20rem;
+    color: black;
+
+    ul li{
+        background: #7CB9E8;
+    border-radius: 16px;
+    border: 1px solid #7CB9E8;
+    color: black;
+    margin: 10px;
+    }
+
+    p{
+        font-weight: bold;
+    }
+   
+}
